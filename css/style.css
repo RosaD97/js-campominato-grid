@@ -5,3 +5,52 @@
     box-sizing: border-box;
 }
 
+/* Common */
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Inizio Header */
+.intestazione{
+    background-color: #fff;
+}
+.logo{
+    height: 50px;
+}
+.ms_btn{
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 0 25px;
+    border-radius: 7px;
+}
+/* Fine Header */
+
+/* Inizio Main */
+main{
+    height: ;
+    flex-grow: 1;
+}
+.ms_container{
+    height: 37.5rem;
+    width: 37.5rem;
+    background-color: blue;
+}
+.cella{
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: burlywood;
+}
+/* Fine Main */
+
+/* Inizio Footer */
+footer{
+    height: 70px;
+    background-color: #fff;
+}
+/* Fine Footer */
